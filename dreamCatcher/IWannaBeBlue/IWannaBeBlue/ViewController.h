@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  dreamCatcher
+//  IWannaBeBlue
 //
-//  Created by andrew dahle on 3/8/15.
+//  Created by andrew dahle on 3/9/15.
 //  Copyright (c) 2015 MobileMakers. All rights reserved.
 //
 
