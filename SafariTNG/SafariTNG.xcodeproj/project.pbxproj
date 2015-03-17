@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8856781AB09945004B5471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856771AB09945004B5471 /* main.m */; };
+		FF88567B1AB09945004B5471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88567A1AB09945004B5471 /* AppDelegate.m */; };
+		FF88567E1AB09945004B5471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88567D1AB09945004B5471 /* ViewController.m */; };
+		FF8856811AB09945004B5471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF88567F1AB09945004B5471 /* Main.storyboard */; };
+		FF8856831AB09945004B5471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8856821AB09945004B5471 /* Images.xcassets */; };
+		FF8856861AB09945004B5471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8856841AB09945004B5471 /* LaunchScreen.xib */; };
+		FF8856921AB09945004B5471 /* SafariTNGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856911AB09945004B5471 /* SafariTNGTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF88568C1AB09945004B5471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF88566A1AB09945004B5471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8856711AB09945004B5471;
+			remoteInfo = SafariTNG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8856721AB09945004B5471 /* SafariTNG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariTNG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8856761AB09945004B5471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8856771AB09945004B5471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8856791AB09945004B5471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF88567A1AB09945004B5471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF88567C1AB09945004B5471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF88567D1AB09945004B5471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF8856801AB09945004B5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8856821AB09945004B5471 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF8856851AB09945004B5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF88568B1AB09945004B5471 /* SafariTNGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTNGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8856901AB09945004B5471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8856911AB09945004B5471 /* SafariTNGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariTNGTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF88566F1AB09945004B5471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8856881AB09945004B5471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8856691AB09945004B5471 = {
+			isa = PBXGroup;
+			children = (
+				FF8856741AB09945004B5471 /* SafariTNG */,
+				FF88568E1AB09945004B5471 /* SafariTNGTests */,
+				FF8856731AB09945004B5471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8856731AB09945004B5471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8856721AB09945004B5471 /* SafariTNG.app */,
+				FF88568B1AB09945004B5471 /* SafariTNGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8856741AB09945004B5471 /* SafariTNG */ = {
+			isa = PBXGroup;
+			children = (
+				FF8856791AB09945004B5471 /* AppDelegate.h */,
+				FF88567A1AB09945004B5471 /* AppDelegate.m */,
+				FF88567C1AB09945004B5471 /* ViewController.h */,
+				FF88567D1AB09945004B5471 /* ViewController.m */,
+				FF88567F1AB09945004B5471 /* Main.storyboard */,
+				FF8856821AB09945004B5471 /* Images.xcassets */,
+				FF8856841AB09945004B5471 /* LaunchScreen.xib */,
+				FF8856751AB09945004B5471 /* Supporting Files */,
+			);
+			path = SafariTNG;
+			sourceTree = "<group>";
+		};
+		FF8856751AB09945004B5471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8856761AB09945004B5471 /* Info.plist */,
+				FF8856771AB09945004B5471 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF88568E1AB09945004B5471 /* SafariTNGTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8856911AB09945004B5471 /* SafariTNGTests.m */,
+				FF88568F1AB09945004B5471 /* Supporting Files */,
+			);
+			path = SafariTNGTests;
+			sourceTree = "<group>";
+		};
+		FF88568F1AB09945004B5471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8856901AB09945004B5471 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8856711AB09945004B5471 /* SafariTNG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8856951AB09945004B5471 /* Build configuration list for PBXNativeTarget "SafariTNG" */;
+			buildPhases = (
+				FF88566E1AB09945004B5471 /* Sources */,
+				FF88566F1AB09945004B5471 /* Frameworks */,
+				FF8856701AB09945004B5471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafariTNG;
+			productName = SafariTNG;
+			productReference = FF8856721AB09945004B5471 /* SafariTNG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF88568A1AB09945004B5471 /* SafariTNGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8856981AB09945004B5471 /* Build configuration list for PBXNativeTarget "SafariTNGTests" */;
+			buildPhases = (
+				FF8856871AB09945004B5471 /* Sources */,
+				FF8856881AB09945004B5471 /* Frameworks */,
+				FF8856891AB09945004B5471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF88568D1AB09945004B5471 /* PBXTargetDependency */,
+			);
+			name = SafariTNGTests;
+			productName = SafariTNGTests;
+			productReference = FF88568B1AB09945004B5471 /* SafariTNGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF88566A1AB09945004B5471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MobileMakers;
+				TargetAttributes = {
+					FF8856711AB09945004B5471 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FF88568A1AB09945004B5471 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FF8856711AB09945004B5471;
+					};
+				};
+			};
+			buildConfigurationList = FF88566D1AB09945004B5471 /* Build configuration list for PBXProject "SafariTNG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8856691AB09945004B5471;
+			productRefGroup = FF8856731AB09945004B5471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8856711AB09945004B5471 /* SafariTNG */,
+				FF88568A1AB09945004B5471 /* SafariTNGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8856701AB09945004B5471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8856811AB09945004B5471 /* Main.storyboard in Resources */,
+				FF8856861AB09945004B5471 /* LaunchScreen.xib in Resources */,
+				FF8856831AB09945004B5471 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8856891AB09945004B5471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF88566E1AB09945004B5471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF88567E1AB09945004B5471 /* ViewController.m in Sources */,
+				FF88567B1AB09945004B5471 /* AppDelegate.m in Sources */,
+				FF8856781AB09945004B5471 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8856871AB09945004B5471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8856921AB09945004B5471 /* SafariTNGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF88568D1AB09945004B5471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8856711AB09945004B5471 /* SafariTNG */;
+			targetProxy = FF88568C1AB09945004B5471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF88567F1AB09945004B5471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8856801AB09945004B5471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8856841AB09945004B5471 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8856851AB09945004B5471 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8856931AB09945004B5471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF8856941AB09945004B5471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8856961AB09945004B5471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariTNG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF8856971AB09945004B5471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafariTNG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF8856991AB09945004B5471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SafariTNGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariTNG.app/SafariTNG";
+			};
+			name = Debug;
+		};
+		FF88569A1AB09945004B5471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SafariTNGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafariTNG.app/SafariTNG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF88566D1AB09945004B5471 /* Build configuration list for PBXProject "SafariTNG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8856931AB09945004B5471 /* Debug */,
+				FF8856941AB09945004B5471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8856951AB09945004B5471 /* Build configuration list for PBXNativeTarget "SafariTNG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8856961AB09945004B5471 /* Debug */,
+				FF8856971AB09945004B5471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8856981AB09945004B5471 /* Build configuration list for PBXNativeTarget "SafariTNGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8856991AB09945004B5471 /* Debug */,
+				FF88569A1AB09945004B5471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF88566A1AB09945004B5471 /* Project object */;
+}
