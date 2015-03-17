@@ -12,7 +12,6 @@
 
 @property NSString *name;
 
-@property NSString *fullName;
 @property NSString *superPower;
 
 -(instancetype)initWithFullName:(NSString *)name andSuperPower:(NSString *)superPower;

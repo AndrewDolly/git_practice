@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HomeViewController : UIViewController
 
-@property NSMutableArray * creatures;
+//read only
+@property NSMutableArray *creatures;
+
+
+
 
 @end
 
