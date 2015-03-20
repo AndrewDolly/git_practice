@@ -10,4 +10,6 @@
 
 @interface VacationViewController : UIViewController
 
+@property UIImage *planetImage;
+
 @end

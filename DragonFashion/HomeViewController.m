@@ -7,8 +7,15 @@
 //
 
 #import "HomeViewController.h"
+#import "Dragon.h"
+#import "ClothingDetailViewController.h"
+
 
 @interface HomeViewController ()
+<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property NSArray *dragons;
 
 @end
 
@@ -16,22 +23,45 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    Dragon  *dragonOne = [Dragon new];
+//    dragonOne.fullName = @"Smaug";
+//    dragonOne.signatureClothingItem = @"High Heels";
+//    Dragon *dragonTwo = [Dragon new];
+//    dragonTwo.fullName = @"Spyro";
+//    dragonTwo.signatureClothingItem = @"Pocket Protector";
+
+    Dragon *dragonOne = [[Dragon alloc]initWithFullName:@"Smaug" andClothingItem:@"High Heels"];
+    Dragon *dragonTwo = [[Dragon alloc]initWithFullName:@"Spyro" andClothingItem:@"Pocket Protector"];
+    Dragon *dragonThree = [[Dragon alloc]initWithFullName:@"Trogdor" andClothingItem:@"Weird Glasses"];
+    Dragon *dragonFour = [[Dragon alloc]initWithFullName:@"Ben" andClothingItem:@"Beard"];
+    self.Dragons = [NSArray arrayWithObjects:dragonOne, dragonTwo, dragonThree, dragonFour, nil];
+
+    for (Dragon *dragon in self.dragons) {
+        NSLog(@"%@", dragon.fullName);
+    }
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DragonCell"];
+    Dragon* dragon = [self.dragons objectAtIndex:indexPath.row];
+    cell.textLabel.text = [self.dragons objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = dragon.signatureClothingItem;
+    return cell;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.dragons.count;
 }
-*/
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITableViewCell *)cell
+{
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+    Dragon* dragon = [self.dragons objectAtIndex:indexPath.row];
+    ClothingDetailViewController *vc = segue.destinationViewController;
+    vc.dragon = dragon;
+    vc.title = dragon.fullName;
+}
+
 
 @end

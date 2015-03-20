@@ -7,8 +7,16 @@
 //
 
 #import "EnterNameViewController.h"
+#import "EnterAdjectiveViewController.h"
+
+
 
 @interface EnterNameViewController ()
+
+
+@property (weak, nonatomic) IBOutlet UITextField *nameTextField;
+
+
 
 @end
 
@@ -19,19 +27,19 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    EnterAdjectiveViewController *funkymonkey = segue.destinationViewController;
+    funkymonkey.name = self.nameTextField.text;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
+    if ([self.nameTextField.text isEqualToString:@""])
+    {
+        return NO;
+    } else {
+        return YES;
+    }
 }
-*/
+
 
 @end

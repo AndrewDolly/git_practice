@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		FF88563A1AAF804F004B5471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856391AAF804F004B5471 /* main.m */; };
 		FF88563D1AAF804F004B5471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88563C1AAF804F004B5471 /* AppDelegate.m */; };
-		FF8856401AAF804F004B5471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88563F1AAF804F004B5471 /* ViewController.m */; };
 		FF8856431AAF804F004B5471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8856411AAF804F004B5471 /* Main.storyboard */; };
 		FF8856451AAF804F004B5471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8856441AAF804F004B5471 /* Images.xcassets */; };
 		FF8856481AAF804F004B5471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8856461AAF804F004B5471 /* LaunchScreen.xib */; };
 		FF8856541AAF8050004B5471 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856531AAF8050004B5471 /* WordPlayTests.m */; };
+		FF88565F1AAF8068004B5471 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF88565E1AAF8068004B5471 /* RootViewController.m */; };
+		FF8856621AAF8227004B5471 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856611AAF8227004B5471 /* EnterNameViewController.m */; };
+		FF8856651AAF8428004B5471 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856641AAF8428004B5471 /* EnterAdjectiveViewController.m */; };
+		FF8856681AAF855C004B5471 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8856671AAF855C004B5471 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		FF8856391AAF804F004B5471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF88563B1AAF804F004B5471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF88563C1AAF804F004B5471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF88563E1AAF804F004B5471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF88563F1AAF804F004B5471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF8856421AAF804F004B5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF8856441AAF804F004B5471 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF8856471AAF804F004B5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF88564D1AAF8050004B5471 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8856521AAF8050004B5471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8856531AAF8050004B5471 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		FF88565D1AAF8068004B5471 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		FF88565E1AAF8068004B5471 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		FF8856601AAF8227004B5471 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		FF8856611AAF8227004B5471 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		FF8856631AAF8428004B5471 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		FF8856641AAF8428004B5471 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		FF8856661AAF855C004B5471 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		FF8856671AAF855C004B5471 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +92,15 @@
 			children = (
 				FF88563B1AAF804F004B5471 /* AppDelegate.h */,
 				FF88563C1AAF804F004B5471 /* AppDelegate.m */,
-				FF88563E1AAF804F004B5471 /* ViewController.h */,
-				FF88563F1AAF804F004B5471 /* ViewController.m */,
+				FF88565D1AAF8068004B5471 /* RootViewController.h */,
+				FF88565E1AAF8068004B5471 /* RootViewController.m */,
 				FF8856411AAF804F004B5471 /* Main.storyboard */,
+				FF8856601AAF8227004B5471 /* EnterNameViewController.h */,
+				FF8856611AAF8227004B5471 /* EnterNameViewController.m */,
+				FF8856631AAF8428004B5471 /* EnterAdjectiveViewController.h */,
+				FF8856641AAF8428004B5471 /* EnterAdjectiveViewController.m */,
+				FF8856661AAF855C004B5471 /* ResultsViewController.h */,
+				FF8856671AAF855C004B5471 /* ResultsViewController.m */,
 				FF8856441AAF804F004B5471 /* Images.xcassets */,
 				FF8856461AAF804F004B5471 /* LaunchScreen.xib */,
 				FF8856371AAF804F004B5471 /* Supporting Files */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8856401AAF804F004B5471 /* ViewController.m in Sources */,
 				FF88563D1AAF804F004B5471 /* AppDelegate.m in Sources */,
 				FF88563A1AAF804F004B5471 /* main.m in Sources */,
+				FF8856651AAF8428004B5471 /* EnterAdjectiveViewController.m in Sources */,
+				FF8856681AAF855C004B5471 /* ResultsViewController.m in Sources */,
+				FF8856621AAF8227004B5471 /* EnterNameViewController.m in Sources */,
+				FF88565F1AAF8068004B5471 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

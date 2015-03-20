@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Dragon.h"
+
 
 @interface ClothingDetailViewController : UIViewController
+@property Dragon *dragon;
+
 
 @end

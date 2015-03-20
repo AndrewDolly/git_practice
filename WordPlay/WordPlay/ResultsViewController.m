@@ -6,9 +6,13 @@
 //  Copyright (c) 2015 MobileMakers. All rights reserved.
 //
 
+#import "RootViewController.h"
 #import "ResultsViewController.h"
 
+
 @interface ResultsViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextView *resultsTextView;
 
 @end
 
@@ -16,22 +20,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
+    self.resultsTextView.text = [NSString stringWithFormat:@"One day, %@ was walking into Mobile Makers when he noticed how %@ his students were.", self.name, self.adjective];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
+    NSString *infoString = [NSString stringWithFormat:@"One day %@  sadfsd asdf asdf asd flooked out the window %@ and then then", self.name, self.adjective];
+    NSRange range1 = [infoString rangeOfString:self.name];
+    NSRange range2 = [infoString rangeOfString:self.adjective];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    NSMutableAttributedString *attributedText = [[NSMutableAttributedString alloc] initWithString:infoString];
+    [attributedText setAttributes:@{NSFontAttributeName: [UIFont boldSystemFontOfSize:17.0f]} range: range1];
+    [attributedText setAttributes:@{NSFontAttributeName: [UIFont boldSystemFontOfSize:17.0f]} range: range2];
+
+    self.resultsTextView.attributedText = attributedText;
 }
-*/
 
 @end

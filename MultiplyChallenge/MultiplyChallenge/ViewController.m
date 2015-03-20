@@ -16,10 +16,9 @@
 @property (weak, nonatomic) IBOutlet UISlider *slideTool;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *operatorSegmentControl;
 
-@property NSString * fizz;
-@property NSString * buzz;
-@property NSString * fizzbuzz;
-
+@property int numberValue;
+@property int multValue;
+@property int result;
 @end
 
 @implementation ViewController
@@ -27,12 +26,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.numberValue = 3;
+    self.multValue = 5;
     self.multiplierLabel.text = @"3";
-    self.fizz = @"fizz";
-    self.buzz = @"buzz";
-    self.fizzbuzz = @"fizzbuzz";
-    self.slideTool.minimumValue = 1;
+    self.slideTool.minimumValue = 0;
     self.slideTool.maximumValue = 10;
+    self.slideTool.value = 5;
 }
 
 - (IBAction)multiplierLabel:(id)sender {
@@ -72,17 +71,17 @@
 
 
 
-    if (result % 15  == 0)
+    if (result % 3  == 0 && result % 5 == 0)
     {
-        self.answerLabel.text = self.fizzbuzz;
+        self.answerLabel.text = [NSString stringWithFormat:@"FizzBuzz"];
     }
     else if(result % 3  == 0)
     {
-        self.answerLabel.text = self.fizz;
+        self.answerLabel.text = [NSString stringWithFormat:@"Fizz"];
     }
     else if(result % 5  == 0)
     {
-        self.answerLabel.text = self.buzz;
+        self.answerLabel.text = [NSString stringWithFormat:@"Buzz"];
     }
     else
     {

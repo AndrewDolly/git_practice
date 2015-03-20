@@ -9,6 +9,7 @@
 #import "ClothingDetailViewController.h"
 
 @interface ClothingDetailViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *clothingLabel;
 
 @end
 
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.clothingLabel.text = self.dragon.signatureClothingItem;
     // Do any additional setup after loading the view.
 }
 

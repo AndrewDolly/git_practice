@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		FF9C98771AB88310007C1855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C98761AB88310007C1855 /* main.m */; };
 		FF9C987A1AB88310007C1855 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C98791AB88310007C1855 /* AppDelegate.m */; };
-		FF9C987D1AB88310007C1855 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C987C1AB88310007C1855 /* ViewController.m */; };
 		FF9C98801AB88310007C1855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9C987E1AB88310007C1855 /* Main.storyboard */; };
 		FF9C98821AB88310007C1855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9C98811AB88310007C1855 /* Images.xcassets */; };
 		FF9C98851AB88310007C1855 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9C98831AB88310007C1855 /* LaunchScreen.xib */; };
 		FF9C98911AB88310007C1855 /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C98901AB88310007C1855 /* DragonFashionTests.m */; };
+		FF9C989C1AB8834C007C1855 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C989B1AB8834C007C1855 /* HomeViewController.m */; };
+		FF9C989F1AB88AB3007C1855 /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9C989E1AB88AB3007C1855 /* Dragon.m */; };
+		FFB79F2F1AB89EF70026FD12 /* ClothingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F2E1AB89EF70026FD12 /* ClothingDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		FF9C98761AB88310007C1855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF9C98781AB88310007C1855 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF9C98791AB88310007C1855 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF9C987B1AB88310007C1855 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF9C987C1AB88310007C1855 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF9C987F1AB88310007C1855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF9C98811AB88310007C1855 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF9C98841AB88310007C1855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF9C988A1AB88310007C1855 /* DragonFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragonFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9C988F1AB88310007C1855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9C98901AB88310007C1855 /* DragonFashionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonFashionTests.m; sourceTree = "<group>"; };
+		FF9C989A1AB8834C007C1855 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		FF9C989B1AB8834C007C1855 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		FF9C989D1AB88AB3007C1855 /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
+		FF9C989E1AB88AB3007C1855 /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		FFB79F2D1AB89EF70026FD12 /* ClothingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothingDetailViewController.h; sourceTree = "<group>"; };
+		FFB79F2E1AB89EF70026FD12 /* ClothingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothingDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,15 @@
 		FF9C98731AB88310007C1855 /* DragonFashion */ = {
 			isa = PBXGroup;
 			children = (
+				FF9C989A1AB8834C007C1855 /* HomeViewController.h */,
+				FF9C989B1AB8834C007C1855 /* HomeViewController.m */,
 				FF9C98781AB88310007C1855 /* AppDelegate.h */,
 				FF9C98791AB88310007C1855 /* AppDelegate.m */,
-				FF9C987B1AB88310007C1855 /* ViewController.h */,
-				FF9C987C1AB88310007C1855 /* ViewController.m */,
 				FF9C987E1AB88310007C1855 /* Main.storyboard */,
+				FFB79F2D1AB89EF70026FD12 /* ClothingDetailViewController.h */,
+				FFB79F2E1AB89EF70026FD12 /* ClothingDetailViewController.m */,
+				FF9C989D1AB88AB3007C1855 /* Dragon.h */,
+				FF9C989E1AB88AB3007C1855 /* Dragon.m */,
 				FF9C98811AB88310007C1855 /* Images.xcassets */,
 				FF9C98831AB88310007C1855 /* LaunchScreen.xib */,
 				FF9C98741AB88310007C1855 /* Supporting Files */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9C987D1AB88310007C1855 /* ViewController.m in Sources */,
 				FF9C987A1AB88310007C1855 /* AppDelegate.m in Sources */,
 				FF9C98771AB88310007C1855 /* main.m in Sources */,
+				FFB79F2F1AB89EF70026FD12 /* ClothingDetailViewController.m in Sources */,
+				FF9C989F1AB88AB3007C1855 /* Dragon.m in Sources */,
+				FF9C989C1AB8834C007C1855 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				FF9C98961AB88310007C1855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF9C98971AB88310007C1855 /* Build configuration list for PBXNativeTarget "DragonFashionTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				FF9C98991AB88310007C1855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

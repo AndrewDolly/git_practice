@@ -10,4 +10,8 @@
 
 @interface ResultsViewController : UIViewController
 
+@property NSString *name;
+@property NSString *adjective;
+
+
 @end

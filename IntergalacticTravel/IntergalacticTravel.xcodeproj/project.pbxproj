@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		FF8855CD1AAF45A5004B5471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8855CC1AAF45A5004B5471 /* main.m */; };
 		FF8855D01AAF45A5004B5471 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8855CF1AAF45A5004B5471 /* AppDelegate.m */; };
-		FF8855D31AAF45A5004B5471 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8855D21AAF45A5004B5471 /* ViewController.m */; };
 		FF8855D61AAF45A5004B5471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8855D41AAF45A5004B5471 /* Main.storyboard */; };
 		FF8855D81AAF45A5004B5471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8855D71AAF45A5004B5471 /* Images.xcassets */; };
 		FF8855DB1AAF45A5004B5471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8855D91AAF45A5004B5471 /* LaunchScreen.xib */; };
 		FF8855E71AAF45A5004B5471 /* IntergalacticTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8855E61AAF45A5004B5471 /* IntergalacticTravelTests.m */; };
+		FF8855F21AAF45C1004B5471 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8855F11AAF45C1004B5471 /* RootViewController.m */; };
+		FF8855F51AAF50EA004B5471 /* VacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8855F41AAF50EA004B5471 /* VacationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		FF8855CC1AAF45A5004B5471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF8855CE1AAF45A5004B5471 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF8855CF1AAF45A5004B5471 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF8855D11AAF45A5004B5471 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF8855D21AAF45A5004B5471 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF8855D51AAF45A5004B5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF8855D71AAF45A5004B5471 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF8855DA1AAF45A5004B5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF8855E01AAF45A5004B5471 /* IntergalacticTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8855E51AAF45A5004B5471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF8855E61AAF45A5004B5471 /* IntergalacticTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntergalacticTravelTests.m; sourceTree = "<group>"; };
+		FF8855F01AAF45C1004B5471 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		FF8855F11AAF45C1004B5471 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		FF8855F31AAF50EA004B5471 /* VacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationViewController.h; sourceTree = "<group>"; };
+		FF8855F41AAF50EA004B5471 /* VacationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,11 @@
 			children = (
 				FF8855CE1AAF45A5004B5471 /* AppDelegate.h */,
 				FF8855CF1AAF45A5004B5471 /* AppDelegate.m */,
-				FF8855D11AAF45A5004B5471 /* ViewController.h */,
-				FF8855D21AAF45A5004B5471 /* ViewController.m */,
+				FF8855F01AAF45C1004B5471 /* RootViewController.h */,
+				FF8855F11AAF45C1004B5471 /* RootViewController.m */,
 				FF8855D41AAF45A5004B5471 /* Main.storyboard */,
+				FF8855F31AAF50EA004B5471 /* VacationViewController.h */,
+				FF8855F41AAF50EA004B5471 /* VacationViewController.m */,
 				FF8855D71AAF45A5004B5471 /* Images.xcassets */,
 				FF8855D91AAF45A5004B5471 /* LaunchScreen.xib */,
 				FF8855CA1AAF45A5004B5471 /* Supporting Files */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8855D31AAF45A5004B5471 /* ViewController.m in Sources */,
 				FF8855D01AAF45A5004B5471 /* AppDelegate.m in Sources */,
 				FF8855CD1AAF45A5004B5471 /* main.m in Sources */,
+				FF8855F21AAF45C1004B5471 /* RootViewController.m in Sources */,
+				FF8855F51AAF50EA004B5471 /* VacationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

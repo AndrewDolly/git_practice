@@ -11,7 +11,6 @@
 @interface MagicalCreature : NSObject
 
 @property NSString *name;
-
 @property NSString *superPower;
 
 -(instancetype)initWithFullName:(NSString *)name andSuperPower:(NSString *)superPower;

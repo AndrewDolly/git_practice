@@ -9,6 +9,7 @@
 #import "VacationViewController.h"
 
 @interface VacationViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *planetImageView;
 
 @end
 
@@ -16,22 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //ImageView is just a frame for an image, still need to tell it what to show
+    self.planetImageView.image = self.planetImage;
+
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

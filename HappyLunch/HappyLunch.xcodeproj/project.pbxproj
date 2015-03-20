@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB79F771AB9DA0B0026FD12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F761AB9DA0B0026FD12 /* main.m */; };
+		FFB79F7A1AB9DA0B0026FD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F791AB9DA0B0026FD12 /* AppDelegate.m */; };
+		FFB79F7D1AB9DA0B0026FD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F7C1AB9DA0B0026FD12 /* ViewController.m */; };
+		FFB79F801AB9DA0B0026FD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB79F7E1AB9DA0B0026FD12 /* Main.storyboard */; };
+		FFB79F821AB9DA0B0026FD12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB79F811AB9DA0B0026FD12 /* Images.xcassets */; };
+		FFB79F851AB9DA0B0026FD12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB79F831AB9DA0B0026FD12 /* LaunchScreen.xib */; };
+		FFB79F911AB9DA0B0026FD12 /* HappyLunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F901AB9DA0B0026FD12 /* HappyLunchTests.m */; };
+		FFB79F9C1AB9DE0F0026FD12 /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F9B1AB9DE0F0026FD12 /* FoodTableViewCell.m */; };
+		FFB79F9F1AB9E9510026FD12 /* DrinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB79F9E1AB9E9510026FD12 /* DrinkTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFB79F8B1AB9DA0B0026FD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFB79F691AB9DA0B0026FD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFB79F701AB9DA0B0026FD12;
+			remoteInfo = HappyLunch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFB79F711AB9DA0B0026FD12 /* HappyLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB79F751AB9DA0B0026FD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB79F761AB9DA0B0026FD12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB79F781AB9DA0B0026FD12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFB79F791AB9DA0B0026FD12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFB79F7B1AB9DA0B0026FD12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFB79F7C1AB9DA0B0026FD12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFB79F7F1AB9DA0B0026FD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB79F811AB9DA0B0026FD12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFB79F841AB9DA0B0026FD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFB79F8A1AB9DA0B0026FD12 /* HappyLunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyLunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB79F8F1AB9DA0B0026FD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB79F901AB9DA0B0026FD12 /* HappyLunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyLunchTests.m; sourceTree = "<group>"; };
+		FFB79F9A1AB9DE0F0026FD12 /* FoodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		FFB79F9B1AB9DE0F0026FD12 /* FoodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		FFB79F9D1AB9E9510026FD12 /* DrinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkTableViewCell.h; sourceTree = "<group>"; };
+		FFB79F9E1AB9E9510026FD12 /* DrinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB79F6E1AB9DA0B0026FD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB79F871AB9DA0B0026FD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB79F681AB9DA0B0026FD12 = {
+			isa = PBXGroup;
+			children = (
+				FFB79F731AB9DA0B0026FD12 /* HappyLunch */,
+				FFB79F8D1AB9DA0B0026FD12 /* HappyLunchTests */,
+				FFB79F721AB9DA0B0026FD12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB79F721AB9DA0B0026FD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB79F711AB9DA0B0026FD12 /* HappyLunch.app */,
+				FFB79F8A1AB9DA0B0026FD12 /* HappyLunchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB79F731AB9DA0B0026FD12 /* HappyLunch */ = {
+			isa = PBXGroup;
+			children = (
+				FFB79F781AB9DA0B0026FD12 /* AppDelegate.h */,
+				FFB79F791AB9DA0B0026FD12 /* AppDelegate.m */,
+				FFB79F7B1AB9DA0B0026FD12 /* ViewController.h */,
+				FFB79F7C1AB9DA0B0026FD12 /* ViewController.m */,
+				FFB79F7E1AB9DA0B0026FD12 /* Main.storyboard */,
+				FFB79F9A1AB9DE0F0026FD12 /* FoodTableViewCell.h */,
+				FFB79F9B1AB9DE0F0026FD12 /* FoodTableViewCell.m */,
+				FFB79F9D1AB9E9510026FD12 /* DrinkTableViewCell.h */,
+				FFB79F9E1AB9E9510026FD12 /* DrinkTableViewCell.m */,
+				FFB79F811AB9DA0B0026FD12 /* Images.xcassets */,
+				FFB79F831AB9DA0B0026FD12 /* LaunchScreen.xib */,
+				FFB79F741AB9DA0B0026FD12 /* Supporting Files */,
+			);
+			path = HappyLunch;
+			sourceTree = "<group>";
+		};
+		FFB79F741AB9DA0B0026FD12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFB79F751AB9DA0B0026FD12 /* Info.plist */,
+				FFB79F761AB9DA0B0026FD12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFB79F8D1AB9DA0B0026FD12 /* HappyLunchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFB79F901AB9DA0B0026FD12 /* HappyLunchTests.m */,
+				FFB79F8E1AB9DA0B0026FD12 /* Supporting Files */,
+			);
+			path = HappyLunchTests;
+			sourceTree = "<group>";
+		};
+		FFB79F8E1AB9DA0B0026FD12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFB79F8F1AB9DA0B0026FD12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB79F701AB9DA0B0026FD12 /* HappyLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB79F941AB9DA0B0026FD12 /* Build configuration list for PBXNativeTarget "HappyLunch" */;
+			buildPhases = (
+				FFB79F6D1AB9DA0B0026FD12 /* Sources */,
+				FFB79F6E1AB9DA0B0026FD12 /* Frameworks */,
+				FFB79F6F1AB9DA0B0026FD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyLunch;
+			productName = HappyLunch;
+			productReference = FFB79F711AB9DA0B0026FD12 /* HappyLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFB79F891AB9DA0B0026FD12 /* HappyLunchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB79F971AB9DA0B0026FD12 /* Build configuration list for PBXNativeTarget "HappyLunchTests" */;
+			buildPhases = (
+				FFB79F861AB9DA0B0026FD12 /* Sources */,
+				FFB79F871AB9DA0B0026FD12 /* Frameworks */,
+				FFB79F881AB9DA0B0026FD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFB79F8C1AB9DA0B0026FD12 /* PBXTargetDependency */,
+			);
+			name = HappyLunchTests;
+			productName = HappyLunchTests;
+			productReference = FFB79F8A1AB9DA0B0026FD12 /* HappyLunchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB79F691AB9DA0B0026FD12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MobileMakers;
+				TargetAttributes = {
+					FFB79F701AB9DA0B0026FD12 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FFB79F891AB9DA0B0026FD12 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FFB79F701AB9DA0B0026FD12;
+					};
+				};
+			};
+			buildConfigurationList = FFB79F6C1AB9DA0B0026FD12 /* Build configuration list for PBXProject "HappyLunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB79F681AB9DA0B0026FD12;
+			productRefGroup = FFB79F721AB9DA0B0026FD12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB79F701AB9DA0B0026FD12 /* HappyLunch */,
+				FFB79F891AB9DA0B0026FD12 /* HappyLunchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB79F6F1AB9DA0B0026FD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB79F801AB9DA0B0026FD12 /* Main.storyboard in Resources */,
+				FFB79F851AB9DA0B0026FD12 /* LaunchScreen.xib in Resources */,
+				FFB79F821AB9DA0B0026FD12 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB79F881AB9DA0B0026FD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB79F6D1AB9DA0B0026FD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB79F7D1AB9DA0B0026FD12 /* ViewController.m in Sources */,
+				FFB79F9F1AB9E9510026FD12 /* DrinkTableViewCell.m in Sources */,
+				FFB79F9C1AB9DE0F0026FD12 /* FoodTableViewCell.m in Sources */,
+				FFB79F7A1AB9DA0B0026FD12 /* AppDelegate.m in Sources */,
+				FFB79F771AB9DA0B0026FD12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFB79F861AB9DA0B0026FD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB79F911AB9DA0B0026FD12 /* HappyLunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFB79F8C1AB9DA0B0026FD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFB79F701AB9DA0B0026FD12 /* HappyLunch */;
+			targetProxy = FFB79F8B1AB9DA0B0026FD12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFB79F7E1AB9DA0B0026FD12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB79F7F1AB9DA0B0026FD12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB79F831AB9DA0B0026FD12 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB79F841AB9DA0B0026FD12 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB79F921AB9DA0B0026FD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFB79F931AB9DA0B0026FD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB79F951AB9DA0B0026FD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFB79F961AB9DA0B0026FD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFB79F981AB9DA0B0026FD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HappyLunchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyLunch.app/HappyLunch";
+			};
+			name = Debug;
+		};
+		FFB79F991AB9DA0B0026FD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HappyLunchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyLunch.app/HappyLunch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB79F6C1AB9DA0B0026FD12 /* Build configuration list for PBXProject "HappyLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB79F921AB9DA0B0026FD12 /* Debug */,
+				FFB79F931AB9DA0B0026FD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB79F941AB9DA0B0026FD12 /* Build configuration list for PBXNativeTarget "HappyLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB79F951AB9DA0B0026FD12 /* Debug */,
+				FFB79F961AB9DA0B0026FD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB79F971AB9DA0B0026FD12 /* Build configuration list for PBXNativeTarget "HappyLunchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB79F981AB9DA0B0026FD12 /* Debug */,
+				FFB79F991AB9DA0B0026FD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB79F691AB9DA0B0026FD12 /* Project object */;
+}
