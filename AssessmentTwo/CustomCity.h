@@ -9,15 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
 @interface CustomCity : NSObject
-@property NSString *name;
-@property NSString *stateProv;
-@property UIImage *image;
 
-
--(instancetype)initWithName: (NSString *)name stateProv:(NSString *)stateProv;
-
-
+-(instancetype)initWithName: (NSString *)name stateProv:(NSString *)stateProv image:(UIImage *)image;
 
 @end

@@ -8,26 +8,21 @@
 
 #import "CustomCity.h"
 
-@interface CustomCity ()
-
-@property NSString *name;
-@property NSString *stateProv;
-@property UIImage *image;
-
-@end
-
-
 @implementation CustomCity
 
--(instancetype)initWithName:(NSString *)name stateProv:(NSString *)stateProv image:(UIImage *)image;
+-(instancetype)initWithName:(NSString *)name stateProv:(NSString *)stateProv;
 {
+    self = [super init];
     self.name = name;
     self.stateProv = stateProv;
     self.image = [UIImage imageNamed:name];
     return self;
 }
 
-
+-(void)getWikipediaURL;
+{
+    [self.delegate wikipediaURLForCity:self.name];
+}
 
 
 @end

@@ -430,7 +430,6 @@
 				FF7A8C021ABC6585007EA05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		FF7A8C031ABC6585007EA05C /* Build configuration list for PBXNativeTarget "AssessmentTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -439,7 +438,6 @@
 				FF7A8C051ABC6585007EA05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
