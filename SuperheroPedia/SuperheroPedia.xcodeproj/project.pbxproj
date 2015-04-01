@@ -14,6 +14,7 @@
 		FF7A8C2C1AC07F58007EA05C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7A8C2B1AC07F58007EA05C /* Images.xcassets */; };
 		FF7A8C2F1AC07F58007EA05C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7A8C2D1AC07F58007EA05C /* LaunchScreen.xib */; };
 		FF7A8C3B1AC07F58007EA05C /* SuperheroPediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8C3A1AC07F58007EA05C /* SuperheroPediaTests.m */; };
+		FFB9DEFB1AC9A6880050CC3C /* SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB9DEFA1AC9A6880050CC3C /* SuperHero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FF7A8C341AC07F58007EA05C /* SuperheroPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperheroPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7A8C391AC07F58007EA05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7A8C3A1AC07F58007EA05C /* SuperheroPediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperheroPediaTests.m; sourceTree = "<group>"; };
+		FFB9DEF91AC9A6880050CC3C /* SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHero.h; sourceTree = "<group>"; };
+		FFB9DEFA1AC9A6880050CC3C /* SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FF7A8C251AC07F58007EA05C /* ViewController.h */,
 				FF7A8C261AC07F58007EA05C /* ViewController.m */,
 				FF7A8C281AC07F58007EA05C /* Main.storyboard */,
+				FFB9DEF91AC9A6880050CC3C /* SuperHero.h */,
+				FFB9DEFA1AC9A6880050CC3C /* SuperHero.m */,
 				FF7A8C2B1AC07F58007EA05C /* Images.xcassets */,
 				FF7A8C2D1AC07F58007EA05C /* LaunchScreen.xib */,
 				FF7A8C1E1AC07F58007EA05C /* Supporting Files */,
@@ -222,6 +227,7 @@
 				FF7A8C271AC07F58007EA05C /* ViewController.m in Sources */,
 				FF7A8C241AC07F58007EA05C /* AppDelegate.m in Sources */,
 				FF7A8C211AC07F58007EA05C /* main.m in Sources */,
+				FFB9DEFB1AC9A6880050CC3C /* SuperHero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				FF7A8C401AC07F58007EA05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF7A8C411AC07F58007EA05C /* Build configuration list for PBXNativeTarget "SuperheroPediaTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				FF7A8C431AC07F58007EA05C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

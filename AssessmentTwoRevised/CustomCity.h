@@ -14,13 +14,19 @@
 @end
 
 @interface CustomCity : NSObject
+
+
 @property id <CityDelegate> delegate;
+
 @property NSString *name;
 @property NSString *stateProv;
 @property UIImage *image;
 
 
--(instancetype)initWithName: (NSString *)name stateProv:(NSString *)stateProv;
+-(instancetype)initWithName: (NSString *)name andStateProv:(NSString *)stateProv andImage:(UIImage *)image;
+
+
+
 
 -(void)getWikipediaURL;
 

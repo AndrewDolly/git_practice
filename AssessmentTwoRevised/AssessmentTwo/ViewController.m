@@ -14,7 +14,7 @@
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource, CityDetailViewControllerDelegate>
 
 @property NSMutableArray *cities;
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UITableView *citiesTableView;
 @property (weak, nonatomic) IBOutlet UINavigationItem *navigationTitle;
 
 @end
@@ -25,24 +25,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 //add tablieview of cities to array
+    self.cities = [[NSMutableArray alloc] init];
 
-    CustomCity *cityOne = [[CustomCity alloc] initWithName:@"SanFrancisco" stateProv:@"CA"];
-    CustomCity *cityTwo = [[CustomCity alloc] initWithName:@"London" stateProv:@"UK"];
-    CustomCity *cityThree = [[CustomCity alloc] initWithName:@"Minneapolis" stateProv:@"MN"];
-    CustomCity *cityFour = [[CustomCity alloc] initWithName:@"Owatonna" stateProv:@"MN"];
+    [self.cities addObject:[[CustomCity alloc] initWithName:@"SanFrancisco" andStateProv:@"CA" andImage:[UIImage imageNamed:@"SanFrancisco"]]];
+    [self.cities addObject:[[CustomCity alloc] initWithName:@"London" andStateProv:@"UK" andImage:[UIImage imageNamed:@"London"]]];
 
-    self.cities = [NSMutableArray arrayWithObjects:cityOne, cityTwo, cityThree, cityFour, nil];
+//    CustomCity *cityOne = [[CustomCity alloc] initWithName:@"SanFrancisco" stateProv:@"CA"];
+//    CustomCity *cityTwo = [[CustomCity alloc] initWithName:@"London" stateProv:@"UK"];
+//    CustomCity *cityThree = [[CustomCity alloc] initWithName:@"Minneapolis" stateProv:@"MN"];
+//    CustomCity *cityFour = [[CustomCity alloc] initWithName:@"Owatonna" stateProv:@"MN"];
 
-    for (CustomCity *city in self.cities)
-    {
-        NSLog(@"%@, %@", city.name, city.stateProv);
-    }
+//    self.cities = [NSMutableArray arrayWithObjects:cityOne, cityTwo, cityThree, cityFour, nil];
 }
+
 -(void) viewWillAppear:(BOOL)animated
 
 {
     [super viewWillAppear:animated];
-    [self.tableView reloadData];
+    [self.citiesTableView reloadData];
 }
 
 //sets rows to be equal to number of cities added to array
@@ -54,12 +54,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CityID"];
-
     CustomCity *city = [self.cities objectAtIndex:indexPath.row];
-
-    cell.imageView.image = [UIImage imageNamed:city.name];
+//    cell.imageView.image = [UIImage imageNamed:city.name];
     cell.textLabel.text = city.name;
     cell.detailTextLabel.text = city.stateProv;
+    cell.imageView.image = [UIImage imageNamed:city.name];
     return cell;
 }
 
@@ -76,14 +75,22 @@
 
 //segue when you click on city brings you to CityDetailVC
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier isEqualToString:@"CityDetail"]) {
 
+
+    UITableViewCell *cell = (UITableViewCell *)sender;
     CityDetailViewController *vc = segue.destinationViewController;
+    vc.city = [self.cities objectAtIndex:[[self.citiesTableView indexPathForCell:cell] row]];
+    vc.delegate = self;
 
-    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-    CustomCity *city = [self.cities objectAtIndex:indexPath.row];
-    vc.city = city;
-    }
+
+
+//
+//    if([segue.identifier isEqualToString:@"CityDetail"]) {
+//    CityDetailViewController *vc = segue.destinationViewController;
+//    NSIndexPath *indexPath = [self.citiesTableView indexPathForSelectedRow];
+//    CustomCity *city = [self.cities objectAtIndex:indexPath.row];
+//    vc.city = city;
+
 }
 
 
@@ -91,6 +98,7 @@
 {
     self.navigationTitle.title = newTitle;
 }
+
 
 
 @end

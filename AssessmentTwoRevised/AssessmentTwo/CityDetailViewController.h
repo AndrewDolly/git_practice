@@ -12,12 +12,12 @@
 
 @protocol CityDetailViewControllerDelegate <NSObject>
 
--(void)changeTitle: (NSString *) newTitle;
+-(void)changeTitle: (NSString *) cityName;
 @end
 
 
 
-@interface CityDetailViewController : ViewController
+@interface CityDetailViewController : UIViewController
 
 @property CustomCity *city;
 

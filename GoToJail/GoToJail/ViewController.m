@@ -57,7 +57,7 @@
     MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
     [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error)
     {
-        MKRouteStep *route = response.routes.firstObject;
+        MKRoute *route = response.routes.firstObject;
         NSMutableString *directionsString = [NSMutableString new];
         int counter = 1;
 

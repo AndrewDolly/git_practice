@@ -10,7 +10,7 @@
 
 @implementation CustomCity
 
--(instancetype)initWithName:(NSString *)name stateProv:(NSString *)stateProv;
+-(instancetype)initWithName: (NSString *)name andStateProv:(NSString *)stateProv andImage:(UIImage *)image;
 {
     self = [super init];
     self.name = name;

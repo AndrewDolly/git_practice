@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SuperHero.h"
+
+
 
 @interface ViewController : UIViewController
 

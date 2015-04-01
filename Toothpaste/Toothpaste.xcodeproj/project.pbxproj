@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFBC71691AC4602F00284041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBC71681AC4602F00284041 /* main.m */; };
+		FFBC716C1AC4602F00284041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBC716B1AC4602F00284041 /* AppDelegate.m */; };
+		FFBC716F1AC4602F00284041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBC716E1AC4602F00284041 /* ViewController.m */; };
+		FFBC71721AC4602F00284041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBC71701AC4602F00284041 /* Main.storyboard */; };
+		FFBC71741AC4602F00284041 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBC71731AC4602F00284041 /* Images.xcassets */; };
+		FFBC71771AC4602F00284041 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBC71751AC4602F00284041 /* LaunchScreen.xib */; };
+		FFBC71831AC4602F00284041 /* ToothpasteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBC71821AC4602F00284041 /* ToothpasteTests.m */; };
+		FFBC718E1AC462B400284041 /* ToothpastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFBC718D1AC462B400284041 /* ToothpastTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBC717D1AC4602F00284041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBC715B1AC4602F00284041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBC71621AC4602F00284041;
+			remoteInfo = Toothpaste;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFBC71631AC4602F00284041 /* Toothpaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toothpaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBC71671AC4602F00284041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBC71681AC4602F00284041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFBC716A1AC4602F00284041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFBC716B1AC4602F00284041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFBC716D1AC4602F00284041 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFBC716E1AC4602F00284041 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFBC71711AC4602F00284041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFBC71731AC4602F00284041 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBC71761AC4602F00284041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFBC717C1AC4602F00284041 /* ToothpasteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToothpasteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBC71811AC4602F00284041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBC71821AC4602F00284041 /* ToothpasteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToothpasteTests.m; sourceTree = "<group>"; };
+		FFBC718C1AC462B400284041 /* ToothpastTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToothpastTableViewController.h; sourceTree = "<group>"; };
+		FFBC718D1AC462B400284041 /* ToothpastTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToothpastTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBC71601AC4602F00284041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBC71791AC4602F00284041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFBC715A1AC4602F00284041 = {
+			isa = PBXGroup;
+			children = (
+				FFBC71651AC4602F00284041 /* Toothpaste */,
+				FFBC717F1AC4602F00284041 /* ToothpasteTests */,
+				FFBC71641AC4602F00284041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBC71641AC4602F00284041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC71631AC4602F00284041 /* Toothpaste.app */,
+				FFBC717C1AC4602F00284041 /* ToothpasteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBC71651AC4602F00284041 /* Toothpaste */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC716A1AC4602F00284041 /* AppDelegate.h */,
+				FFBC716B1AC4602F00284041 /* AppDelegate.m */,
+				FFBC716D1AC4602F00284041 /* ViewController.h */,
+				FFBC716E1AC4602F00284041 /* ViewController.m */,
+				FFBC71701AC4602F00284041 /* Main.storyboard */,
+				FFBC718C1AC462B400284041 /* ToothpastTableViewController.h */,
+				FFBC718D1AC462B400284041 /* ToothpastTableViewController.m */,
+				FFBC71731AC4602F00284041 /* Images.xcassets */,
+				FFBC71751AC4602F00284041 /* LaunchScreen.xib */,
+				FFBC71661AC4602F00284041 /* Supporting Files */,
+			);
+			path = Toothpaste;
+			sourceTree = "<group>";
+		};
+		FFBC71661AC4602F00284041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC71671AC4602F00284041 /* Info.plist */,
+				FFBC71681AC4602F00284041 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBC717F1AC4602F00284041 /* ToothpasteTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC71821AC4602F00284041 /* ToothpasteTests.m */,
+				FFBC71801AC4602F00284041 /* Supporting Files */,
+			);
+			path = ToothpasteTests;
+			sourceTree = "<group>";
+		};
+		FFBC71801AC4602F00284041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBC71811AC4602F00284041 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBC71621AC4602F00284041 /* Toothpaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBC71861AC4602F00284041 /* Build configuration list for PBXNativeTarget "Toothpaste" */;
+			buildPhases = (
+				FFBC715F1AC4602F00284041 /* Sources */,
+				FFBC71601AC4602F00284041 /* Frameworks */,
+				FFBC71611AC4602F00284041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toothpaste;
+			productName = Toothpaste;
+			productReference = FFBC71631AC4602F00284041 /* Toothpaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBC717B1AC4602F00284041 /* ToothpasteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBC71891AC4602F00284041 /* Build configuration list for PBXNativeTarget "ToothpasteTests" */;
+			buildPhases = (
+				FFBC71781AC4602F00284041 /* Sources */,
+				FFBC71791AC4602F00284041 /* Frameworks */,
+				FFBC717A1AC4602F00284041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBC717E1AC4602F00284041 /* PBXTargetDependency */,
+			);
+			name = ToothpasteTests;
+			productName = ToothpasteTests;
+			productReference = FFBC717C1AC4602F00284041 /* ToothpasteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBC715B1AC4602F00284041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MobileMakers;
+				TargetAttributes = {
+					FFBC71621AC4602F00284041 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FFBC717B1AC4602F00284041 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FFBC71621AC4602F00284041;
+					};
+				};
+			};
+			buildConfigurationList = FFBC715E1AC4602F00284041 /* Build configuration list for PBXProject "Toothpaste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBC715A1AC4602F00284041;
+			productRefGroup = FFBC71641AC4602F00284041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBC71621AC4602F00284041 /* Toothpaste */,
+				FFBC717B1AC4602F00284041 /* ToothpasteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBC71611AC4602F00284041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBC71721AC4602F00284041 /* Main.storyboard in Resources */,
+				FFBC71771AC4602F00284041 /* LaunchScreen.xib in Resources */,
+				FFBC71741AC4602F00284041 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBC717A1AC4602F00284041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBC715F1AC4602F00284041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBC716F1AC4602F00284041 /* ViewController.m in Sources */,
+				FFBC716C1AC4602F00284041 /* AppDelegate.m in Sources */,
+				FFBC718E1AC462B400284041 /* ToothpastTableViewController.m in Sources */,
+				FFBC71691AC4602F00284041 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBC71781AC4602F00284041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBC71831AC4602F00284041 /* ToothpasteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBC717E1AC4602F00284041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBC71621AC4602F00284041 /* Toothpaste */;
+			targetProxy = FFBC717D1AC4602F00284041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBC71701AC4602F00284041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBC71711AC4602F00284041 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBC71751AC4602F00284041 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBC71761AC4602F00284041 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBC71841AC4602F00284041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFBC71851AC4602F00284041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBC71871AC4602F00284041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Toothpaste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFBC71881AC4602F00284041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Toothpaste/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFBC718A1AC4602F00284041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToothpasteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toothpaste.app/Toothpaste";
+			};
+			name = Debug;
+		};
+		FFBC718B1AC4602F00284041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ToothpasteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toothpaste.app/Toothpaste";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBC715E1AC4602F00284041 /* Build configuration list for PBXProject "Toothpaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBC71841AC4602F00284041 /* Debug */,
+				FFBC71851AC4602F00284041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBC71861AC4602F00284041 /* Build configuration list for PBXNativeTarget "Toothpaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBC71871AC4602F00284041 /* Debug */,
+				FFBC71881AC4602F00284041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFBC71891AC4602F00284041 /* Build configuration list for PBXNativeTarget "ToothpasteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBC718A1AC4602F00284041 /* Debug */,
+				FFBC718B1AC4602F00284041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBC715B1AC4602F00284041 /* Project object */;
+}

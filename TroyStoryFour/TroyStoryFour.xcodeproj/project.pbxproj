@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF26CB721ACAF82A0010027F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CB711ACAF82A0010027F /* main.m */; };
+		FF26CB751ACAF82A0010027F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CB741ACAF82A0010027F /* AppDelegate.m */; };
+		FF26CB781ACAF82A0010027F /* TroyStoryFour.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF26CB761ACAF82A0010027F /* TroyStoryFour.xcdatamodeld */; };
+		FF26CB7B1ACAF82A0010027F /* WarriorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CB7A1ACAF82A0010027F /* WarriorListViewController.m */; };
+		FF26CB7E1ACAF82A0010027F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF26CB7C1ACAF82A0010027F /* Main.storyboard */; };
+		FF26CB801ACAF82A0010027F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF26CB7F1ACAF82A0010027F /* Images.xcassets */; };
+		FF26CB831ACAF82A0010027F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF26CB811ACAF82A0010027F /* LaunchScreen.xib */; };
+		FF26CB8F1ACAF82B0010027F /* TroyStoryFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CB8E1ACAF82B0010027F /* TroyStoryFourTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF26CB891ACAF82B0010027F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF26CB641ACAF82A0010027F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF26CB6B1ACAF82A0010027F;
+			remoteInfo = TroyStoryFour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF26CB6C1ACAF82A0010027F /* TroyStoryFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyStoryFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF26CB701ACAF82A0010027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF26CB711ACAF82A0010027F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF26CB731ACAF82A0010027F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF26CB741ACAF82A0010027F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF26CB771ACAF82A0010027F /* TroyStoryFour.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TroyStoryFour.xcdatamodel; sourceTree = "<group>"; };
+		FF26CB791ACAF82A0010027F /* WarriorListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarriorListViewController.h; sourceTree = "<group>"; };
+		FF26CB7A1ACAF82A0010027F /* WarriorListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarriorListViewController.m; sourceTree = "<group>"; };
+		FF26CB7D1ACAF82A0010027F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF26CB7F1ACAF82A0010027F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF26CB821ACAF82A0010027F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF26CB881ACAF82B0010027F /* TroyStoryFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyStoryFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF26CB8D1ACAF82B0010027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF26CB8E1ACAF82B0010027F /* TroyStoryFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStoryFourTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF26CB691ACAF82A0010027F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF26CB851ACAF82B0010027F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF26CB631ACAF82A0010027F = {
+			isa = PBXGroup;
+			children = (
+				FF26CB6E1ACAF82A0010027F /* TroyStoryFour */,
+				FF26CB8B1ACAF82B0010027F /* TroyStoryFourTests */,
+				FF26CB6D1ACAF82A0010027F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF26CB6D1ACAF82A0010027F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF26CB6C1ACAF82A0010027F /* TroyStoryFour.app */,
+				FF26CB881ACAF82B0010027F /* TroyStoryFourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF26CB6E1ACAF82A0010027F /* TroyStoryFour */ = {
+			isa = PBXGroup;
+			children = (
+				FF26CB731ACAF82A0010027F /* AppDelegate.h */,
+				FF26CB741ACAF82A0010027F /* AppDelegate.m */,
+				FF26CB791ACAF82A0010027F /* WarriorListViewController.h */,
+				FF26CB7A1ACAF82A0010027F /* WarriorListViewController.m */,
+				FF26CB7C1ACAF82A0010027F /* Main.storyboard */,
+				FF26CB7F1ACAF82A0010027F /* Images.xcassets */,
+				FF26CB811ACAF82A0010027F /* LaunchScreen.xib */,
+				FF26CB761ACAF82A0010027F /* TroyStoryFour.xcdatamodeld */,
+				FF26CB6F1ACAF82A0010027F /* Supporting Files */,
+			);
+			path = TroyStoryFour;
+			sourceTree = "<group>";
+		};
+		FF26CB6F1ACAF82A0010027F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF26CB701ACAF82A0010027F /* Info.plist */,
+				FF26CB711ACAF82A0010027F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF26CB8B1ACAF82B0010027F /* TroyStoryFourTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF26CB8E1ACAF82B0010027F /* TroyStoryFourTests.m */,
+				FF26CB8C1ACAF82B0010027F /* Supporting Files */,
+			);
+			path = TroyStoryFourTests;
+			sourceTree = "<group>";
+		};
+		FF26CB8C1ACAF82B0010027F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF26CB8D1ACAF82B0010027F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF26CB6B1ACAF82A0010027F /* TroyStoryFour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF26CB921ACAF82B0010027F /* Build configuration list for PBXNativeTarget "TroyStoryFour" */;
+			buildPhases = (
+				FF26CB681ACAF82A0010027F /* Sources */,
+				FF26CB691ACAF82A0010027F /* Frameworks */,
+				FF26CB6A1ACAF82A0010027F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroyStoryFour;
+			productName = TroyStoryFour;
+			productReference = FF26CB6C1ACAF82A0010027F /* TroyStoryFour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF26CB871ACAF82B0010027F /* TroyStoryFourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF26CB951ACAF82B0010027F /* Build configuration list for PBXNativeTarget "TroyStoryFourTests" */;
+			buildPhases = (
+				FF26CB841ACAF82B0010027F /* Sources */,
+				FF26CB851ACAF82B0010027F /* Frameworks */,
+				FF26CB861ACAF82B0010027F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF26CB8A1ACAF82B0010027F /* PBXTargetDependency */,
+			);
+			name = TroyStoryFourTests;
+			productName = TroyStoryFourTests;
+			productReference = FF26CB881ACAF82B0010027F /* TroyStoryFourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF26CB641ACAF82A0010027F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MobileMakers;
+				TargetAttributes = {
+					FF26CB6B1ACAF82A0010027F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF26CB871ACAF82B0010027F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF26CB6B1ACAF82A0010027F;
+					};
+				};
+			};
+			buildConfigurationList = FF26CB671ACAF82A0010027F /* Build configuration list for PBXProject "TroyStoryFour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF26CB631ACAF82A0010027F;
+			productRefGroup = FF26CB6D1ACAF82A0010027F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF26CB6B1ACAF82A0010027F /* TroyStoryFour */,
+				FF26CB871ACAF82B0010027F /* TroyStoryFourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF26CB6A1ACAF82A0010027F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26CB7E1ACAF82A0010027F /* Main.storyboard in Resources */,
+				FF26CB831ACAF82A0010027F /* LaunchScreen.xib in Resources */,
+				FF26CB801ACAF82A0010027F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF26CB861ACAF82B0010027F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF26CB681ACAF82A0010027F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26CB751ACAF82A0010027F /* AppDelegate.m in Sources */,
+				FF26CB781ACAF82A0010027F /* TroyStoryFour.xcdatamodeld in Sources */,
+				FF26CB7B1ACAF82A0010027F /* WarriorListViewController.m in Sources */,
+				FF26CB721ACAF82A0010027F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF26CB841ACAF82B0010027F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF26CB8F1ACAF82B0010027F /* TroyStoryFourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF26CB8A1ACAF82B0010027F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF26CB6B1ACAF82A0010027F /* TroyStoryFour */;
+			targetProxy = FF26CB891ACAF82B0010027F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF26CB7C1ACAF82A0010027F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF26CB7D1ACAF82A0010027F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF26CB811ACAF82A0010027F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF26CB821ACAF82A0010027F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF26CB901ACAF82B0010027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF26CB911ACAF82B0010027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF26CB931ACAF82B0010027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TroyStoryFour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF26CB941ACAF82B0010027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TroyStoryFour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF26CB961ACAF82B0010027F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TroyStoryFourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroyStoryFour.app/TroyStoryFour";
+			};
+			name = Debug;
+		};
+		FF26CB971ACAF82B0010027F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TroyStoryFourTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroyStoryFour.app/TroyStoryFour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF26CB671ACAF82A0010027F /* Build configuration list for PBXProject "TroyStoryFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF26CB901ACAF82B0010027F /* Debug */,
+				FF26CB911ACAF82B0010027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF26CB921ACAF82B0010027F /* Build configuration list for PBXNativeTarget "TroyStoryFour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF26CB931ACAF82B0010027F /* Debug */,
+				FF26CB941ACAF82B0010027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF26CB951ACAF82B0010027F /* Build configuration list for PBXNativeTarget "TroyStoryFourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF26CB961ACAF82B0010027F /* Debug */,
+				FF26CB971ACAF82B0010027F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF26CB761ACAF82A0010027F /* TroyStoryFour.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF26CB771ACAF82A0010027F /* TroyStoryFour.xcdatamodel */,
+			);
+			currentVersion = FF26CB771ACAF82A0010027F /* TroyStoryFour.xcdatamodel */;
+			path = TroyStoryFour.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF26CB641ACAF82A0010027F /* Project object */;
+}

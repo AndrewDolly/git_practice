@@ -73,8 +73,8 @@
     CLLocationCoordinate2D centerCoordinate = view.annotation.coordinate;
 
     MKCoordinateSpan coordinateSpan;
-    coordinateSpan.latitudeDelta = 0.01;
-    coordinateSpan.longitudeDelta = 0.01;
+    coordinateSpan.latitudeDelta = 100;
+    coordinateSpan.longitudeDelta = 100;
 
     MKCoordinateRegion region;
     region.center = centerCoordinate;
