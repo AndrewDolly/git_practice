@@ -87,12 +87,14 @@
 
                                if (!connectionError) {
                                    NSDictionary *decodedJSON = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-                                   for (NSDictionary *dictionary in decodedJSON[@"stationBeanList"]) {
+                                   for (NSDictionary *dictionary in decodedJSON[@"stationList"]) {
                                        BikeStation *station = [[BikeStation alloc] initWithDictionary:dictionary];
                                        [self.stationListArray addObject:station];
                                    }
 
                                    [self.stationListArray sortUsingComparator:^NSComparisonResult(id object1, id object2) {
+
+
                                        BikeStation *station1 = (BikeStation *)object1;
                                        BikeStation *station2 = (BikeStation *)object2;
                                        CLLocation *location1 = [[CLLocation alloc] initWithLatitude:[station1.dictionary[@"latitude"] doubleValue]
@@ -100,9 +102,22 @@
                                        CLLocation *location2 = [[CLLocation alloc] initWithLatitude:[station2.dictionary[@"latitude"] doubleValue]
                                                                                           longitude:[station2.dictionary[@"longitude"] doubleValue]];
 
+
                                        NSNumber *distance1 = [NSNumber numberWithDouble:[self.currentLocation distanceFromLocation:location1]];
                                        NSNumber *distance2 = [NSNumber numberWithDouble:[self.currentLocation distanceFromLocation:location2]];
-                                       return [distance1 compare:distance2];
+
+
+                                       if (distance1 < distance2) {
+                                           return NSOrderedAscending;
+                                       }
+                                       else if (distance1 > distance2) {
+                                           return NSOrderedDescending;
+                                       }
+                                       else{
+                                       return NSOrderedSame;
+                                       }
+//
+//                                       return [distance1 compare:distance2];
                                    }];
 
                                    [self.tableView reloadData];

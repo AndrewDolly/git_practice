@@ -66,43 +66,41 @@
 
 
 
-//
-//-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
-//{
-//    if(![annotation isEqual:mapView.userLocation])
-//    {
-//        MKPinAnnotationView *pin = [[MKPinAnnotationView alloc]initWithAnnotation:annotation reuseIdentifier:nil];
-//        pin.image = [UIImage imageNamed:@"makersImage"];
-//        pin.canShowCallout = YES;
-//        pin.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-//        return pin;
-//    }
-//    else
-//    {
-//        return nil;
-//    }
-//}
-//
-//
-//
-//-(void)geocodeLocation :(NSString *)addressString
-//{
-//    NSString *address = addressString;
-//    CLGeocoder *geocoder = [CLGeocoder new];
-//    [geocoder geocodeAddressString:address completionHandler:^(NSArray *placemarks, NSError *error)
-//     {
-//         for (CLPlacemark *place in placemarks)
-//         {
-//             MKPointAnnotation *annotation = [MKPointAnnotation new];
-//             annotation.coordinate = place.location.coordinate;
-//             annotation.title = place.name;
-//             [self.mapView addAnnotation:annotation];
-//             NSLog(@"%@", annotation.description);
-//         }
-//     }];
-//}
-//
-//
+
+
+- (void)getDirectionsTo:(MKMapItem *)mapItem
+{
+    //Use current location as the origination source
+
+    MKDirectionsRequest *request = [MKDirectionsRequest new];
+    request.source = [MKMapItem mapItemForCurrentLocation];
+    request.destination = mapItem;
+
+
+    //Directions for request
+
+    MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
+    [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error)
+    {
+        MKRoute *route = [response.routes firstObject];
+        int stepNumber = 1;
+        NSMutableString *directionsString = [NSMutableString string];
+        for (MKRouteStep *step in route.steps) {
+            NSLog(@"%@", step.instructions);
+            [directionsString appendFormat:@"%d: %@\n", stepNumber, step.instructions];
+            stepNumber++;
+        }
+
+        UIAlertView *alertView = [UIAlertView new];
+        alertView.title = @"Directions";
+        alertView.message = directionsString;
+        [alertView addButtonWithTitle:@"ok"];
+        [alertView show];
+    }];
+}
+
+
+
 
 
 @end
