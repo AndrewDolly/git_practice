@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PeopleViewController : UIViewController
+@interface PeopleViewController : UITableViewController
+
+
+@property NSManagedObjectContext *context;
+
 
 @end

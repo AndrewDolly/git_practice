@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface People : NSObject
+@interface People : NSManagedObject
+
+@property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSNumber * isFriend;
+@property (nonatomic, retain) NSSet *friends;
+@property (nonatomic, retain) NSSet *suggestedBooks;
+@end
+
+@interface People (CoreDataGeneratedAccessors)
+
 
 @end

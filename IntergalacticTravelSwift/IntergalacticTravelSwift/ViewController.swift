@@ -14,12 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        let vc = segue.destinationViewController as VacaViewController
+        vc.title = sender?.currentTitle
 
-
+        vc.isBlueStar = (segue.identifier != "RedDwarfSegue")
 }
-
+}

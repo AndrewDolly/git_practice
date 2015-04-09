@@ -15,6 +15,10 @@
 		FF26CBF81ACD002D0010027F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF26CBF71ACD002D0010027F /* Images.xcassets */; };
 		FF26CBFB1ACD002D0010027F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF26CBF91ACD002D0010027F /* LaunchScreen.xib */; };
 		FF26CC071ACD002E0010027F /* MyBookClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CC061ACD002E0010027F /* MyBookClubTests.m */; };
+		FF26CC121ACD02230010027F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CC111ACD02230010027F /* People.m */; };
+		FF26CC151ACD02320010027F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CC141ACD02320010027F /* Book.m */; };
+		FF26CC1E1ACD15B60010027F /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF26CC1D1ACD15B60010027F /* PeopleViewController.m */; };
+		FF3CAC6A1ACDBE2300DD6C11 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3CAC691ACDBE2300DD6C11 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,14 @@
 		FF26CC001ACD002E0010027F /* MyBookClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBookClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF26CC051ACD002E0010027F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF26CC061ACD002E0010027F /* MyBookClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookClubTests.m; sourceTree = "<group>"; };
+		FF26CC101ACD02230010027F /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		FF26CC111ACD02230010027F /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		FF26CC131ACD02320010027F /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		FF26CC141ACD02320010027F /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		FF26CC1C1ACD15B60010027F /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		FF26CC1D1ACD15B60010027F /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+		FF3CAC681ACDBE2300DD6C11 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FF3CAC691ACDBE2300DD6C11 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +97,17 @@
 			children = (
 				FF26CBEB1ACD002D0010027F /* AppDelegate.h */,
 				FF26CBEC1ACD002D0010027F /* AppDelegate.m */,
+				FF26CBF41ACD002D0010027F /* Main.storyboard */,
 				FF26CBF11ACD002D0010027F /* ViewController.h */,
 				FF26CBF21ACD002D0010027F /* ViewController.m */,
-				FF26CBF41ACD002D0010027F /* Main.storyboard */,
+				FF26CC1C1ACD15B60010027F /* PeopleViewController.h */,
+				FF26CC1D1ACD15B60010027F /* PeopleViewController.m */,
+				FF3CAC681ACDBE2300DD6C11 /* TableViewController.h */,
+				FF3CAC691ACDBE2300DD6C11 /* TableViewController.m */,
+				FF26CC101ACD02230010027F /* People.h */,
+				FF26CC111ACD02230010027F /* People.m */,
+				FF26CC131ACD02320010027F /* Book.h */,
+				FF26CC141ACD02320010027F /* Book.m */,
 				FF26CBF71ACD002D0010027F /* Images.xcassets */,
 				FF26CBF91ACD002D0010027F /* LaunchScreen.xib */,
 				FF26CBEE1ACD002D0010027F /* MyBookClub.xcdatamodeld */,
@@ -224,8 +244,12 @@
 			files = (
 				FF26CBED1ACD002D0010027F /* AppDelegate.m in Sources */,
 				FF26CBEA1ACD002D0010027F /* main.m in Sources */,
+				FF26CC121ACD02230010027F /* People.m in Sources */,
 				FF26CBF31ACD002D0010027F /* ViewController.m in Sources */,
+				FF26CC1E1ACD15B60010027F /* PeopleViewController.m in Sources */,
+				FF26CC151ACD02320010027F /* Book.m in Sources */,
 				FF26CBF01ACD002D0010027F /* MyBookClub.xcdatamodeld in Sources */,
+				FF3CAC6A1ACDBE2300DD6C11 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				FF26CC0C1ACD002E0010027F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF26CC0D1ACD002E0010027F /* Build configuration list for PBXNativeTarget "MyBookClubTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				FF26CC0F1ACD002E0010027F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

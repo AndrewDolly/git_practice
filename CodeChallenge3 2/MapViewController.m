@@ -13,6 +13,10 @@
 
 @property (strong, nonatomic) IBOutlet MKMapView *mapView;
 @property (nonatomic, strong) MKPointAnnotation *currentLocationAnnotation;
+@property MKUserLocation *userLocation;
+@property CLLocationManager *locationManager;
+@property MKMapItem *bikeMapItem;
+@property NSString *directionsString;
 
 
 @end
@@ -22,16 +26,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.userLocation = [MKUserLocation new];
+    self.bikeMapItem = [MKMapItem new];
     [self.mapView removeAnnotations:self.mapView.annotations];
-
-    MKPointAnnotation *annotation = [MKPointAnnotation new];
-    annotation.coordinate = CLLocationCoordinate2DMake([self.selectedStation.dictionary[@"latitude"] doubleValue], [self.selectedStation.dictionary[@"longitude"] doubleValue]);
-    annotation.title = self.selectedStation.dictionary[@"stAddress1"];
-    [self.mapView addAnnotation:annotation];
-
     self.currentLocationAnnotation = [MKPointAnnotation new];
-    self.currentLocationAnnotation.coordinate = CLLocationCoordinate2DMake(self.currentLocation.coordinate.latitude, self.currentLocation.coordinate.longitude);
-    [self.mapView addAnnotation:annotation];
+    self.currentLocationAnnotation.coordinate = CLLocationCoordinate2DMake([self.selectedStation.dictionary[@"latitude"] doubleValue], [self.selectedStation.dictionary[@"longitude"] doubleValue]);
+    self.currentLocationAnnotation.title = self.selectedStation.dictionary[@"stAddress1"];
+    [self.mapView addAnnotation:self.currentLocationAnnotation];
+
 }
 
 //set annotation coordinate to selected location
@@ -47,8 +49,16 @@
 
     [self.mapView setRegion:region animated:YES];
     self.mapView.showsUserLocation = YES;
-    self.mapView.userLocation.title = @"";
+    self.mapView.userLocation.title = @"User";
 }
+
+
+-(void)displayUserLocation {
+    self.locationManager = [CLLocationManager new];
+    [self.locationManager requestAlwaysAuthorization];
+    self.mapView.showsUserLocation = YES;
+}
+
 
 //throw a nice bike image in there for location
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation {
@@ -64,17 +74,19 @@
 }
 
 
+//attempt directions again
 
+- (void)getDirections {
 
+    MKPlacemark *mkDest = [[MKPlacemark alloc]
+                           initWithCoordinate:self.currentLocationAnnotation.coordinate
+                           addressDictionary:nil];
 
-
-- (void)getDirectionsTo:(MKMapItem *)mapItem
-{
     //Use current location as the origination source
 
     MKDirectionsRequest *request = [MKDirectionsRequest new];
     request.source = [MKMapItem mapItemForCurrentLocation];
-    request.destination = mapItem;
+    [request setDestination:[self.bikeMapItem initWithPlacemark:mkDest]];
 
 
     //Directions for request
@@ -83,20 +95,25 @@
     [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error)
     {
         MKRoute *route = [response.routes firstObject];
+        NSMutableString *directionsString = [NSMutableString new];
         int stepNumber = 1;
-        NSMutableString *directionsString = [NSMutableString string];
+
         for (MKRouteStep *step in route.steps) {
-            NSLog(@"%@", step.instructions);
             [directionsString appendFormat:@"%d: %@\n", stepNumber, step.instructions];
             stepNumber++;
         }
-
-        UIAlertView *alertView = [UIAlertView new];
-        alertView.title = @"Directions";
-        alertView.message = directionsString;
-        [alertView addButtonWithTitle:@"ok"];
-        [alertView show];
+        self.directionsString = directionsString;
     }];
+}
+
+- (UIAlertView *)alertView {
+
+        UIAlertView *directionsAlert = [UIAlertView new];
+        directionsAlert.delegate = self;
+        directionsAlert.title = [NSString stringWithFormat:@"%@", self.directionsString];
+        [directionsAlert addButtonWithTitle:@"Dismiss"];
+        [directionsAlert show];
+        return directionsAlert;
 }
 
 

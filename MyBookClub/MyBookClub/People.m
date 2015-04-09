@@ -7,7 +7,14 @@
 //
 
 #import "People.h"
+#import <CoreData/CoreData.h>
+
 
 @implementation People
+
+@dynamic name;
+@dynamic isFriend;
+@dynamic friends;
+@dynamic suggestedBooks;
 
 @end

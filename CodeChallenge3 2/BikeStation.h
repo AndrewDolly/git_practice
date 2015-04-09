@@ -17,6 +17,8 @@
 @property NSDictionary *dictionary;
 
 @property NSNumber *availableBikes;
+@property NSString *stationName;
+@property NSString *address;
 
 
 @end

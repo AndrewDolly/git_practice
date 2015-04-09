@@ -13,6 +13,7 @@
 		FF3CAC8A1AD2D8A500DD6C11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3CAC891AD2D8A500DD6C11 /* Images.xcassets */; };
 		FF3CAC8D1AD2D8A500DD6C11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3CAC8B1AD2D8A500DD6C11 /* LaunchScreen.xib */; };
 		FF3CAC991AD2D8A500DD6C11 /* IntergalacticTravelSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CAC981AD2D8A500DD6C11 /* IntergalacticTravelSwiftTests.swift */; };
+		FF3CACA31AD2E29800DD6C11 /* VacaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CACA21AD2E29800DD6C11 /* VacaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FF3CAC921AD2D8A500DD6C11 /* IntergalacticTravelSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalacticTravelSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3CAC971AD2D8A500DD6C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF3CAC981AD2D8A500DD6C11 /* IntergalacticTravelSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntergalacticTravelSwiftTests.swift; sourceTree = "<group>"; };
+		FF3CACA21AD2E29800DD6C11 /* VacaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FF3CAC821AD2D8A500DD6C11 /* AppDelegate.swift */,
 				FF3CAC841AD2D8A500DD6C11 /* ViewController.swift */,
+				FF3CACA21AD2E29800DD6C11 /* VacaViewController.swift */,
 				FF3CAC861AD2D8A500DD6C11 /* Main.storyboard */,
 				FF3CAC891AD2D8A500DD6C11 /* Images.xcassets */,
 				FF3CAC8B1AD2D8A500DD6C11 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				FF3CAC851AD2D8A500DD6C11 /* ViewController.swift in Sources */,
 				FF3CAC831AD2D8A500DD6C11 /* AppDelegate.swift in Sources */,
+				FF3CACA31AD2E29800DD6C11 /* VacaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

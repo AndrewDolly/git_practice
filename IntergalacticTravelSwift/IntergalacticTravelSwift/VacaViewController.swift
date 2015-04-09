@@ -10,17 +10,29 @@ import UIKit
 
 class VacaViewController: UIViewController {
 
+    var isBlueStar  :  Bool = false
+
+
+    @IBOutlet weak var intergalacticImageView: UIImageView!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        if isBlueStar {
+            view.backgroundColor = UIColor.blueColor()
+            intergalacticImageView.image = UIImage(named: "bluestar 2")
+        }
+        else {
+            view.backgroundColor = UIColor(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
+            intergalacticImageView.image = UIImage(named: "reddwarf 2")
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        }
+
     }
     
+
+
 
     /*
     // MARK: - Navigation

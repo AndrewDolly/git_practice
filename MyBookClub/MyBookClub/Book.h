@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface Book : NSObject
+
+@interface Book : NSManagedObject
 
 @end

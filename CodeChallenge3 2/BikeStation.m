@@ -11,6 +11,8 @@
 @implementation BikeStation
 
 
+
+
 //add initW/ for dictionary (both .h and .m)
 - (id)initWithDictionary:(NSDictionary *)dictionary
 {

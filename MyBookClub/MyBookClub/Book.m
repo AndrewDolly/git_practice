@@ -7,6 +7,8 @@
 //
 
 #import "Book.h"
+#import <CoreData/CoreData.h>
+
 
 @implementation Book
 
